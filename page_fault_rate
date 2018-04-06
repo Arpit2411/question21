@@ -7,6 +7,13 @@ Generate a solution to find maximum acceptable page-fault rate for access time t
 #include<stdlib.h>
 void fault_rate();
 float tfn,tfm,mat,pm,pnm;
+/*p is page fault rate
+mat is memory access time
+pm is page modified
+pnm is page not modified
+tfm is time fault if modified
+tfn is time fault if not modified*/
+
 int main()
 {
 	
